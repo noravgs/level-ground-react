@@ -1,8 +1,8 @@
 # Portfolio
 A Gym Static Website made with React
-**Link to project:**
+**Link to project:** https://lg-gym.netlify.app/
 
-![image]()
+![image](https://github.com/noravgs/level-ground-react/blob/main/src/assets/images/gymcover.png?raw=true)
 
 ## How It's Made:
 
