@@ -1,0 +1,111 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities; 
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap');
+
+
+@layer base {
+ body{
+   @apply font-[Source+Sans+Pro];
+ }
+ li{
+  @apply px-4;
+  @apply cursor-pointer;
+ }
+}
+
+.content-div {
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+ height: 250px;
+}
+
+.content-div:hover {
+ background-image: linear-gradient(
+     to right,
+     rgba(129, 236, 174, 0.856),
+     hsla(167, 64%, 30%, 0.8)   
+ )!important;
+}
+/* Small Screens max width 640px */
+@media screen and (max-width: 640px) {
+ .skillsGrid{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 20px;
+   grid-auto-rows: auto;
+   height: auto;
+ }
+.skillsGrid img {
+ height: 75px;
+ width: 75px;
+}
+.classes{
+ background-color: #5dabeb;
+ display: flex;
+ flex-direction: column;
+ margin-left: auto;
+ margin-right: auto;
+ text-align: center;
+ justify-content: center;
+ align-items: center;
+}
+}
+
+/* Medium Screens min width 641px change to 4 columns */
+@media screen and (min-width: 641px) {
+  .hiregrid{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    /* gap: 20px; */
+    grid-auto-rows: auto;
+    height: auto;
+  }
+ .skillsGrid{
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   gap: 30px;
+   grid-auto-rows: auto;
+   height: auto;
+ }
+.skillsGrid img {
+ height: 100px;
+ width: 100px;
+}
+.classes{
+ background-color: #5dabeb;
+ display: flex;
+ flex-direction: column;
+ margin-left: auto;
+ margin-right: auto;
+ text-align: center;
+ justify-content: center;
+ align-items: center;
+}
+}
+@media screen and (min-width: 1080px) {
+ .skillsGrid{
+   display: grid;
+   grid-template-columns: repeat(6, 1fr);
+   gap: 50px;
+   grid-auto-rows: auto;
+   height: auto
+ }
+.skillsGrid img {
+ height: 150px;
+ width: 150px;
+}
+.classes{
+ background-color: #5dabeb;
+ display: flex;
+ flex-direction: column;
+ margin-left: auto;
+ margin-right: auto;
+ text-align: center;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
+}
+}
