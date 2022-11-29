@@ -1,14 +1,14 @@
 # Portfolio
-Portfolio made with React and Tailwind CSS
-**Link to project:** https://noravgs.netlify.app/
+A Gym Static Website made with React
+**Link to project:**
 
-![image](https://github.com/noravgs/nv-portfolio-react/blob/main/src/assets/portfolioimg.png?raw=true)
+![image]()
 
 ## How It's Made:
 
-**Tech used:** JavaScript, React, Tailwind CSS and Hacker News API
+**Tech used:** JavaScript, React, Tailwind CSS
 
-In this project, I used React in order to understand reusability of components. I used tailwind to facilitate styling. Created internal database to store and fetch projects. 
+In this project, I used React for reusability of components. I used tailwind to facilitate styling. 
 
 
 ## Examples:
