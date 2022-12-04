@@ -11,9 +11,9 @@ const Work = () => {
  //setProject(data);
 //  sm:grid grid-cols-1
 return (
-  <div name='work' className="mx-auto flex justify-around w-full h-full text-center bg-[#072a57] text-white">
-<div className='lg:text-4xl flex flex-col justify-center items-center sm:text-right pb-8 pl-4'>
-         <p className='text-3xl font-bold inline border-b-4 border-[#ade1e5]'>HIRE US</p>
+  <div name='work' className="hire-us mx-auto flex justify-around w-full h-full text-center bg-[#072a57] text-white">
+<div className='lg:text-4xl flex flex-col justify-center items-center sm:text-right pb-8 pl-4 '>
+         <p className='text-3xl font-bold inline border-b-4 border-[#cdfa04]'>HIRE US</p>
      </div>
   
     

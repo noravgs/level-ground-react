@@ -7,7 +7,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav)
 
  return (
-  <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#072a57] text-white'>
+  <div className='fixed w-full h-[80px] flex justify-between items-center font-extrabold px-4 bg-[#072a57] text-white'>
     <div>
        {/* <img src={Logo} alt="logo image" /> */}
        <span className='sm:text-xl font:bold text-[#ffffff]'>LEVEL GROUND</span>

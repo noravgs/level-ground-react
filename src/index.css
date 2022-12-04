@@ -31,37 +31,48 @@
 }
 /* Small Screens max width 640px */
 @media screen and (max-width: 640px) {
- .skillsGrid{
-   display: grid;
-   grid-template-columns: repeat(3, 1fr);
-   gap: 20px;
-   grid-auto-rows: auto;
-   height: auto;
+  .skillsGrid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    grid-auto-rows: auto;
+    height: auto;
+    font-size: x-small;
+    padding: 10px;
+    font-weight: 700;
+  }
+ .skillsGrid img {
+  height: 75px;
+  width: 75px;
  }
-.skillsGrid img {
- height: 75px;
- width: 75px;
-}
-.classes{
- background-color: #5dabeb;
- display: flex;
- flex-direction: column;
- margin-left: auto;
- margin-right: auto;
- text-align: center;
- justify-content: center;
- align-items: center;
+ .skills{
+  background-color: #5dabeb;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+ }
+ .hire-us{
+  padding: 20%;
+  display: grid;
+  grid-template-rows: auto;
 }
 }
 
 /* Medium Screens min width 641px change to 4 columns */
 @media screen and (min-width: 641px) {
-  .hiregrid{
+  .skillsGrid{
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    /* gap: 20px; */
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
     grid-auto-rows: auto;
     height: auto;
+    font-size: x-small;
+   padding: 10px;
+   font-weight: 700;
   }
  .skillsGrid{
    display: grid;
@@ -69,6 +80,9 @@
    gap: 30px;
    grid-auto-rows: auto;
    height: auto;
+   font-size: 10px;
+   padding: 10px;
+   font-weight: 700;
  }
 .skillsGrid img {
  height: 100px;
@@ -83,6 +97,10 @@
  text-align: center;
  justify-content: center;
  align-items: center;
+}
+.hire-us{
+  display: grid;
+  grid-template-rows: auto;
 }
 }
 @media screen and (min-width: 1080px) {

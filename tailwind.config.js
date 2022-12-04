@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'main': "url('../src/assets/images/gym.jpg')",
+        'main': "url('../src/assets/images/gym0.jpg')",
         'workout': "url('../src/assets/images/main.jpg)",
       },
     },
