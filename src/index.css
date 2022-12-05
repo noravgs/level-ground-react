@@ -126,4 +126,10 @@
  align-items: center;
  height: 100vh;
 }
+.hire-us{
+  display: flex;
+  flex-direction: row;
+  padding: 5%;
+}
+
 }
